@@ -1,0 +1,61 @@
+.topNavBar {
+  width: 100%;
+  padding: 5px 0;
+  background: #ec2d2d;
+}
+
+.topNavBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topNavBarLeftAllItem {
+  list-style: none;
+  display: flex;
+  gap: 2px;
+}
+
+.topNavBarLeftAllItem .topNavBarLeftSingalItem {
+  display: flex;
+  row-gap: 3px;
+  padding: 5px 25px;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.topNavBarLeftAllItem .topNavBarLeftSingalItem:hover {
+  background: #0000001c;
+}
+
+.topNavBarLeftAllItem .topNavBarLeftSingalItem p {
+  color: #fff;
+}
+
+.topNavBarLeftAllItem .categories {
+  padding: 0;
+  color: #fff;
+  column-gap: 10px;
+  margin-right: 12px;
+  flex-direction: row;
+  cursor: context-menu;
+}
+
+.topNavBarLeftAllItem .categories:hover {
+  background: none;
+}
+
+.topNavBarContainer .topNavBarHelpLine {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.topNavBarContainer .topNavBarHelpLine:hover p {
+  text-decoration: underline;
+}

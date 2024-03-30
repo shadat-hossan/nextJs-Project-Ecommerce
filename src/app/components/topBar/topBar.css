@@ -1,0 +1,162 @@
+.topBar {
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topBarSearch {
+  width: 40%;
+}
+
+.topBarSearch .topSearchBar {
+  width: 100%;
+  height: 36px;
+  padding: 0 0 0 10px;
+  color: #4e4e4e;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2ffdb8ab;
+  background-color: #ececec;
+}
+.topBarSearch .topSearchBar input {
+  width: 95%;
+  height: 100%;
+  color: #4e4e4e;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0 2px 0 0;
+}
+
+.topBarSearch .topSearchBar input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 50em;
+  background: url(../../../../public/assets/Icon/croseIcon.png) no-repeat 50%
+    50%;
+  background-size: contain;
+  opacity: 0;
+  pointer-events: none;
+  opacity: 0.8;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.topBarSearch .topSearchBar .topBarSearchSubmit {
+  /* background: none; */
+  border: none;
+  cursor: pointer;
+  border-left: 1px solid #d3d3d3;
+  width: auto;
+  height: 100%;
+  padding: 2px 10px;
+  transition: all 0.2s;
+  background: #00000010;
+}
+
+.topBarSearch .topSearchBar .topBarSearchSubmit:hover {
+  background: #00000020;
+}
+
+.topBarRight {
+  display: flex;
+  gap: 20px;
+}
+
+.topBarRight .topBarRightItem {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.topBarRight .topBarRightItem:hover {
+  background: #0000000a;
+}
+
+.topBarRight .topBarRightItem .topWishIcon {
+  width: 20px;
+}
+
+.topBarRightItem .countShopingProdut {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  padding: 4px;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 50%;
+  background: #db4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topBarRight .topBarRightItem .userProfile {
+  position: relative;
+}
+
+.topBarRight .topBarRightItem .topUserIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.userProfileSubMenue {
+  position: absolute;
+  width: 225px;
+  z-index: 150;
+  right: 0;
+  top: 37px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(40px);
+  border-radius: 2px;
+}
+
+.topBarRight .topBarRightItem .subMunueS24 {
+  transform: translateY(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.topBarRight .topBarRightItem .subMunueS24Active {
+  transform: translateY(0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+.topBarRight .topBarRightItem .userProfileSubMenue ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.topBarRight .topBarRightItem .userProfileSubMenue ul li .subItemLink {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1px;
+  font-size: 15px;
+  padding: 8px 5px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+.topBarRight .topBarRightItem .userProfileSubMenue ul li .subItemLink:hover {
+  background: #67656540;
+}
