@@ -1,0 +1,26 @@
+.flashSalesTopCountdown .countdownTimer {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.flashSalesTopCountdown .timees {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 0px;
+}
+
+.flashSalesTopCountdown .timees p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.flashSalesTopCountdown .timees h4 {
+  font-size: 36px;
+}
+
+.flashSalesTopCountdown .clockPart {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #e07575;
+}

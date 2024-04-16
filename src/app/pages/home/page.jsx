@@ -4,6 +4,7 @@ import "./home.css";
 
 import TopBar from "@/app/components/topBar/TopBar";
 import TopNavBar from "@/app/components/topNavbar/TopNavBar";
+import FlashSales from "@/app/components/flashSales/FlashSales";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <TopNavBar />
       <div className="homePageMainComponents">
         <HomeTopBaner />
+        <FlashSales />
       </div>
     </div>
   );
