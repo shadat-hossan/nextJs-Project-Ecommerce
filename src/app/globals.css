@@ -1,11 +1,35 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-.row{
+.row {
   max-width: 1240px;
-  margin:  0 auto ;
+  margin: 0 auto;
+  /* overflow-x: hidden; */
+}
+
+body {
+  overflow-x: hidden;
+}
+.commonButton p {
+  background: #db4444;
+  display: inline-block;
+  padding: 16px 48px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.5;
+}
+
+.commonButton p:hover {
+  background: #cc4040;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

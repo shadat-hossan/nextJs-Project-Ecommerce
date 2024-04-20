@@ -1,6 +1,7 @@
 .homeTopBaner {
   margin-top: 20px;
   height: 400px;
+  overflow-x: hidden;
 }
 
 .swiper {

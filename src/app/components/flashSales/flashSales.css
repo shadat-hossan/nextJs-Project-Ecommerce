@@ -1,5 +1,8 @@
 .flashSales {
   padding: 40px 0;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
 }
 .flashSalesTop {
   display: flex;
@@ -29,4 +32,14 @@
 
 .flashSalesTopMainTitle {
   font-size: 26px;
+}
+
+.flashSalesMorBtn {
+  cursor: pointer;
+}
+
+/* Singal Product Style */
+
+.flashSalesbottom {
+  padding: 40px 0px;
 }
