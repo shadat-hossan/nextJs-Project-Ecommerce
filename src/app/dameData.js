@@ -8,6 +8,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 96,
     category: "gaming",
+    alt: "HAVIT HV-G92 Gamepad",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 69,
     category: "computers",
+    alt: "AK-900 Wired Keyboard",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 99,
     category: "computers",
+    alt: "Seanner",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 78,
     category: "scanner",
+    alt: "Biometric Fingerprint Scanner",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 87,
     category: "laptop",
+    alt: "ASUS FHD Gaming Laptop",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 59,
     category: "gaming",
+    alt: "GP11 Shooter USB Gamepad",
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 96,
     category: "Car",
+    alt: "Kids Electric Car",
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 87,
     category: "gaming",
+    alt: "PlayStation 5",
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 73,
     category: "Speakers",
+    alt: "Speakers",
   },
   {
     id: 10,
@@ -98,6 +107,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 82,
     category: "women",
+    alt: "Women’s Collections",
   },
   {
     id: 11,
@@ -108,6 +118,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 81,
     category: "Printer",
+    alt: "Printer",
   },
   {
     id: 12,
@@ -118,6 +129,7 @@ const product = [
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     ratting: 87,
     category: "Technologies",
+    alt: "MARK Technologies",
   },
 ];
 

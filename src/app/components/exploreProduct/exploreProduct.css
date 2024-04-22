@@ -1,0 +1,18 @@
+.exploreProduct-container {
+  overflow-x: hidden;
+  padding: 40px 0;
+}
+
+.allExploreProduct {
+  padding: 40px 0;
+}
+
+.exploreProductMorBtn p {
+  cursor: pointer;
+}
+
+.exploreProduct-container .swiper-grid-column > .swiper-wrapper {
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  row-gap: 40px !important;
+}

@@ -19,6 +19,7 @@ const SingalProduct = ({ product }) => {
               width={200}
               height={200}
               className="singalProductImage"
+              alt={product.alt}
             />
           </div>
           <div className="singalProductDiscound">
@@ -83,30 +84,35 @@ const SingalProduct = ({ product }) => {
               width={18}
               height={18}
               className="SingalProductreviewSingalStar"
+              alt="Star1"
             />
             <Image
               src={star}
               width={18}
               height={18}
               className="SingalProductreviewSingalStar"
+              alt="Star2"
             />
             <Image
               src={star}
               width={18}
               height={18}
               className="SingalProductreviewSingalStar"
+              alt="Star3"
             />
             <Image
               src={star}
               width={18}
               height={18}
               className="SingalProductreviewSingalStar"
+              alt="Sta4"
             />
             <Image
               src={star}
               width={18}
               height={18}
               className="SingalProductreviewSingalStar"
+              alt="Star5"
             />
             <p className="countReviewNumber">({product.ratting})</p>
           </div>
