@@ -10,6 +10,7 @@ import BestSelling from "@/app/components/bestSelling/BestSelling";
 import DiscountBanner from "@/app/components/discountBanner/DiscountBanner";
 import ExploreProduct from "@/app/components/exploreProduct/ExploreProduct";
 import NewArrival from "@/app/components/newArrival/NewArrival";
+import FreeServices from "@/app/components/freeService/FreeServices";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         <DiscountBanner />
         <ExploreProduct />
         <NewArrival />
+        <FreeServices />
       </div>
     </div>
   );
