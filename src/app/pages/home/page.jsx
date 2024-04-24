@@ -11,6 +11,7 @@ import DiscountBanner from "@/app/components/discountBanner/DiscountBanner";
 import ExploreProduct from "@/app/components/exploreProduct/ExploreProduct";
 import NewArrival from "@/app/components/newArrival/NewArrival";
 import FreeServices from "@/app/components/freeService/FreeServices";
+import Footer from "@/app/components/footer/Footer";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
         <ExploreProduct />
         <NewArrival />
         <FreeServices />
+        <Footer />
       </div>
     </div>
   );
