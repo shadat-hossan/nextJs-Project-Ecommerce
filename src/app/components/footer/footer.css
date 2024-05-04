@@ -67,3 +67,23 @@
   flex-direction: column;
   row-gap: 12px;
 }
+
+.footerSocialLink {
+  display: flex;
+  gap: 10px;
+}
+
+.footerSocialLinkSongalItem {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.footerSocialLinkSongalItem:hover {
+  border: 1px solid #b4b4b4;
+  transform: translateY(5px);
+}
